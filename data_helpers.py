@@ -65,7 +65,7 @@ def load_data_and_labels(lDataFilePaths):
 
     # y = np.concatenate([positive_labels, negative_labels, neutral_labels], 0)
     y = np.concatenate([required_labels, degree_labels, years_labels, desired_labels, benefits_labels, culture_labels, other_labels], 0)
-    print str(y)
+
     return [x_text, y]
 
 
